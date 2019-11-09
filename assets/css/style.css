@@ -52,6 +52,33 @@ body,html {
     top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
+    /* transition: all 0.05s; */
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+.hour12,
+.hour1,
+.hour2,
+.hour3,
+.hour4,
+.hour5 {
+    height: 1vmin;
+    width: 65vmin;
+    background: transparent;
+    border-left: 7vmin solid #000;
+    border-right: 7vmin solid #000;
+    transform: translate(-50%, -50%);
+/*     transform-origin: right bottom; */
+    top: 50%;
+    left: 51.2%;
+    position: absolute;
+}
+
+.hour3 { transform: rotate(90deg) translate(0, 34vmin); }
+
+.hour1 { transform: rotate(120deg) translate(17vmin, 30vmin); }
+
+.hour2 { transform: rotate(150deg) translate(29vmin, 18vmin); }
+
+.hour4 { transform: rotate(210deg) translate(30vmin, -17vmin); }
+
+.hour5 { transform: rotate(240deg) translate(17vmin, -30vmin); }
