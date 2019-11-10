@@ -55,6 +55,32 @@ body,html {
     /* transition: all 0.05s; */
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+.hourhand,
+.secondhand,
+.minutehand {
+    width: 25vmin;
+    height: 2vmin;
+    background: #000;
+    position: absolute;
+    top: 40vmin;
+    left: calc(50% - 3.5vmin);
+    z-index: 2;
+    transform: rotate(-139deg);
+    transform-origin: 16%;
+}
+.secondhand {
+    width: 35vmin;
+    height: .5vmin;
+    top: 30.75vmin;
+    transform: rotate(160deg);
+    transform-origin: 11.5%;
+    box-shadow: -10px -10px 10px rgba(0,0,0,.4);
+}
+.secondhand1:after {
+    top: -2.25vmin;
+}
+
+
 .hour12,
 .hour1,
 .hour2,
