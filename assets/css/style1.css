@@ -26,6 +26,23 @@ body,html {
     color: #ee0404;
 }
 
+.section1 {
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+   border-radius: 50%;
+    margin-top: 3vmin;
+    
+    position: relative;
+    z-index: 1;
+}
+.section2 {
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+        position: relative;
+    z-index: 1;
+}
 
 
     * {
@@ -39,11 +56,25 @@ body,html {
         height: 600px;
         margin: 20px auto 0 auto;
         background: url(../images/clockface.jpg);
+        background: #fff url('../images/timeMachinegif.gif') center center;
+
         /* background: url("../images/black.png"); */
 
         list-style: none;
         }
+        #clock1 {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            margin: 20px auto 0 auto;
+            background: url(../images/clockface.jpg);
+            /* background: #fff url('../images/timeMachinegif.gif') center center; */
     
+            /* background: url("../images/black.png"); */
+    
+            list-style: none;
+            }
+        
     #sec, #min, #hour {
         position: absolute;
         width: 30px;
