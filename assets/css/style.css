@@ -78,8 +78,8 @@ body,html {
     top: 40vmin;
     left: calc(50% - 3.5vmin);
     z-index: 2;
-    transform: rotate(0deg);
-    transform-origin: 16%;
+    transform: rotate(-90deg);
+    transform-origin: 9.5%;
 }
 
 .hourhand {
@@ -92,8 +92,8 @@ body,html {
 .minutehand {
     width: 40vmin;
     height: 1vmin;
-    top: 35.5vmin;
-    transform: rotate(0deg);
+    top: 36.5vmin;
+    transform: rotate(-90deg);
     transform-origin: 9.5%;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
@@ -103,8 +103,8 @@ body,html {
 .secondhand {
     width: 35vmin;
     height: .5vmin;
-    top: 37.75vmin;
-    transform: rotate(0deg);
+    top: 36.75vmin;
+    transform: rotate(-90deg);
     transform-origin: 9.5%;
     box-shadow: -10px -10px 10px rgba(0,0,0,.4);
 }
