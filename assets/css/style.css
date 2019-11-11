@@ -30,7 +30,7 @@ body,html {
     width: 80vmin;
     height: 80vmin;
     margin: auto;
-    background: #fff url('http://travisdarnell.com/wp-content/uploads/2013/12/white-linen-paper-texture1.jpg') center center;
+    background: #fff url('../images/timeMachinegif.gif') center center;
     border: 3vmin solid #000;
     border-radius: 50%;
     margin-top: 3vmin;
@@ -57,7 +57,7 @@ body,html {
     left: 40%;
     font-size: 2.5vmin;
 }
-.hand {
+.hand1 {
     width: 50%;
     height: 10px;
     background: #009688;
@@ -78,12 +78,13 @@ body,html {
     top: 40vmin;
     left: calc(50% - 3.5vmin);
     z-index: 2;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
     transform-origin: 9.5%;
 }
 
 .hourhand {
     top: 36vmin;
+    left: 34.5vmin;
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     box-shadow: -10px 0px 10px rgba(0,0,0,.4);
@@ -93,7 +94,7 @@ body,html {
     width: 40vmin;
     height: 1vmin;
     top: 36.5vmin;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
     transform-origin: 9.5%;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
