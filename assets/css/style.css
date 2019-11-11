@@ -43,6 +43,20 @@ body,html {
     z-index: 1;
 }
 
+.section2 {
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+    
+    
+   
+    margin-top: 3vmin;
+   
+    position: relative;
+    z-index: 1;
+}
+
+
 .clock1 {
     width: 480px;
     height: 480px;
@@ -102,7 +116,7 @@ body,html {
 .minutehand {
     width: 40vmin;
     height: 1vmin;
-    top: 38.5vmin;
+    top: 35.5vmin;
     transform: rotate(160deg);
     transform-origin: 9.5%;
     border-top-right-radius: 30%;
@@ -150,3 +164,60 @@ body,html {
 .hour4 { transform: rotate(210deg) translate(30vmin, -17vmin); }
 
 .hour5 { transform: rotate(240deg) translate(17vmin, -30vmin); }
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 20px auto 0 auto;
+    background: url(../images/clockface.jpg);
+    /* background: url("../images/black.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style: none;
+    }
+
+#sec, #min, #hour {
+    position: absolute;
+    width: 30px;
+    height: 600px;
+    top: -160px;
+    left: 120px;
+    }
+
+#sec {
+    background: url(../images/sechand.png);
+    z-index: 3;
+       }
+   
+#min {
+    background: url(../images/minhand.png);
+    z-index: 2;
+       }
+   
+#hour {
+    background: url(../images/hourhand.png);
+    z-index: 1;
+       }
+       
+p {
+    text-align: center; 
+    padding: 10px 0 0 0;
+   }
+
+
+.label {
+position: absolute;
+top: 25vmin;
+left: 42%;
+font-size: 2.5vmin;
+}
