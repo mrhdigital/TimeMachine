@@ -43,30 +43,6 @@ body,html {
     z-index: 1;
 }
 
-.section2 {
-    width: 80vmin;
-    height: 80vmin;
-    margin: auto;
-    
-    
-   
-    margin-top: 3vmin;
-   
-    position: relative;
-    z-index: 1;
-}
-
-
-.clock1 {
-    width: 480px;
-    height: 480px;
-    border: 20px solid #a32f2f;
-    border-radius: 50%;
-    margin: 50px auto;
-    position: relative;
-    padding: 2rem;
-    box-shadow: inset 0px 0px 3px 5px rgba(0,0,0,0.1), inset 0 0 0 3px #e4d7d7, inset 0 0 10px #fb0000, 0 0 10px rgba(239, 6, 6, 0.2);
-}
 
 .clock-face {
     position: relative;
@@ -88,7 +64,7 @@ body,html {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     /* transition: all 0.05s; */
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
@@ -102,7 +78,7 @@ body,html {
     top: 40vmin;
     left: calc(50% - 3.5vmin);
     z-index: 2;
-    transform: rotate(-139deg);
+    transform: rotate(0deg);
     transform-origin: 16%;
 }
 
@@ -117,7 +93,7 @@ body,html {
     width: 40vmin;
     height: 1vmin;
     top: 35.5vmin;
-    transform: rotate(160deg);
+    transform: rotate(0deg);
     transform-origin: 9.5%;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
@@ -128,7 +104,7 @@ body,html {
     width: 35vmin;
     height: .5vmin;
     top: 37.75vmin;
-    transform: rotate(160deg);
+    transform: rotate(0deg);
     transform-origin: 9.5%;
     box-shadow: -10px -10px 10px rgba(0,0,0,.4);
 }
@@ -169,55 +145,3 @@ body,html {
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#clock {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    margin: 20px auto 0 auto;
-    background: url(../images/clockface.jpg);
-    /* background: url("../images/black.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    list-style: none;
-    }
-
-#sec, #min, #hour {
-    position: absolute;
-    width: 30px;
-    height: 600px;
-    top: -160px;
-    left: 120px;
-    }
-
-#sec {
-    background: url(../images/sechand.png);
-    z-index: 3;
-       }
-   
-#min {
-    background: url(../images/minhand.png);
-    z-index: 2;
-       }
-   
-#hour {
-    background: url(../images/hourhand.png);
-    z-index: 1;
-       }
-       
-p {
-    text-align: center; 
-    padding: 10px 0 0 0;
-   }
-
-
-.label {
-position: absolute;
-top: 25vmin;
-left: 42%;
-font-size: 2.5vmin;
-}
