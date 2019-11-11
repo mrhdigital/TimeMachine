@@ -30,6 +30,22 @@ body,html {
     width: 80vmin;
     height: 80vmin;
     margin: auto;
+    background: #fff url('../images/timeMachinegif1.gif') center center;
+    border: 3vmin solid #000;
+    border-radius: 50%;
+    margin-top: 3vmin;
+    box-shadow: 
+        inset 40px 40px 90px rgba(0,0,0,.2),
+        inset 10px 10px 30px rgba(0,0,0,.5), 
+        20px 20px 30px rgba(0,0,0,.4),
+        40px 40px 60px rgba(0,0,0,.4);
+    position: relative;
+    z-index: 1;
+}
+.section2 {
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
     background: #fff url('../images/timeMachinegif.gif') center center;
     border: 3vmin solid #000;
     border-radius: 50%;
@@ -42,6 +58,7 @@ body,html {
     position: relative;
     z-index: 1;
 }
+
 
 
 .clock-face {
