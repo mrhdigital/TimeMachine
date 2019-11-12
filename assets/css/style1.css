@@ -55,6 +55,8 @@ body,html {
         width: 600px;
         height: 600px;
         border-radius: 50%;
+        border: -3vmin solid #000;
+
         margin: 40px auto 0 auto;
         background: url(../images/clockface.jpg);
         background: #fff url('../images/timeMachinegif1.gif') center center;
