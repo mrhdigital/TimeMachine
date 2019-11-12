@@ -7,6 +7,8 @@ $(document).ready(function() {
     var srotate = "rotate(" + sdegree + "deg)";
     
     $("#sec").css({"-moz-transform" : srotate, "-webkit-transform" : srotate});
+    $("#sec1").css({"-moz-transform" : srotate, "-webkit-transform" : srotate});
+
         
     }, 1000 );
     
@@ -18,6 +20,8 @@ $(document).ready(function() {
     var hrotate = "rotate(" + hdegree + "deg)";
     
     $("#hour").css({"-moz-transform" : hrotate, "-webkit-transform" : hrotate});
+    $("#hour1").css({"-moz-transform" : hrotate, "-webkit-transform" : hrotate});
+
         
     }, 1000 );
 
@@ -28,6 +32,8 @@ $(document).ready(function() {
     var mrotate = "rotate(" + mdegree + "deg)";
     
     $("#min").css({"-moz-transform" : mrotate, "-webkit-transform" : mrotate});
+    $("#min1").css({"-moz-transform" : mrotate, "-webkit-transform" : mrotate});
+
         
     }, 1000 );
 

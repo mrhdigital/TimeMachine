@@ -30,7 +30,7 @@ body,html {
     width: 80vmin;
     height: 80vmin;
     margin: auto;
-    background: #fff url('../images/timeMachinegif1.gif') center center;
+    /* background: #fff url('../images/timeMachinegif1.gif') center center; */
     border: 3vmin solid #000;
     border-radius: 50%;
     margin-top: 3vmin;

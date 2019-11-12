@@ -54,9 +54,13 @@ body,html {
         position: relative;
         width: 600px;
         height: 600px;
-        margin: 20px auto 0 auto;
+        border-radius: 50%;
+        margin: 40px auto 0 auto;
         background: url(../images/clockface.jpg);
-        background: #fff url('../images/timeMachinegif.gif') center center;
+        background: #fff url('../images/timeMachinegif1.gif') center center;
+        background-size: contain;
+        /* background-repeat: no-repeat; */
+        
 
         /* background: url("../images/black.png"); */
 
@@ -75,7 +79,7 @@ body,html {
             list-style: none;
             }
         
-    #sec, #min, #hour {
+    #sec, #min, #hour,#sec1, #min1, #hour1 {
         position: absolute;
         width: 30px;
         height: 600px;
@@ -83,17 +87,17 @@ body,html {
         left: 285px;
         }
     
-    #sec {
+    #sec, #sec1 {
         background: url(../images/sechand.png);
         z-index: 3;
            }
        
-    #min {
+    #min, #min1 {
         background: url(../images/minhand.png);
         z-index: 2;
            }
        
-    #hour {
+    #hour, #hour1 {
         background: url(../images/hourhand.png);
         z-index: 1;
            }
